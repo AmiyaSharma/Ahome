@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+   <div id="nav"> <a href="#">Home </a><a href="#">About</a><a href="#">Contact</a></div>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor, est eget accumsan.Etiam in lectus sed nunc consequat efficitur. Morbi bibendum, elit vel malesuada. Sed non euismod arcu. Proin vulputate arcu at aliquam.</p>
+        
+    </section>
+    <img id="image" src="./ab.png.jpg" alt="error">
+
+
+    <div id="abcd"><button type="button" id="butn" onclick="myFunction()">Set background color</button></div>
+
+    <h1>Interactive Webpage</h1>
+    
+    <!-- Checkbox to toggle image visibility -->
+    <label for="toggleCheckbox">Toggle Image</label>
+    <input type="checkbox" id="toggleCheckbox" onclick="toggleImage()">
+    
+    <!-- Image to be toggled -->
+    <img id="myImage" src="./ab.png.jpg" alt="My Image" >
+    
+    <!-- Navigation menu with links -->
+    <ul>
+        <li><a href="#" onclick="showAlert('Link 1 clicked!')">Link 1</a></li>
+        <li><a href="#" onclick="showAlert('Link 2 clicked!')">Link 2</a></li>
+        <li><a href="#" onclick="showAlert('Link 3 clicked!')">Link 3</a></li>
+    </ul>
+</body>
+</html>
+
+
+<script src="./script.js"></script>
