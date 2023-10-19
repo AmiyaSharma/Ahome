@@ -1,9 +1,36 @@
-    #container{
-        border: 2px solid rgb(50, 44, 44);
-        height: 50px;
-        width: 50%;
-        margin: auto;
-      
-        
-    }
-    
+
+
+
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #b32121;
+
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #1e0b0b;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #555;
+    position: relative;
+}
+
+li span.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
+li.checked {
+    background-color: #38a3a3;
+    color: #555;
+    text-decoration: line-through;
+}
