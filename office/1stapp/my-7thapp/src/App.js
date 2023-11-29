@@ -1,6 +1,6 @@
-import Layout from './componants/Layout';
-import Registration from './componants/Registration';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Layout from './componants/Layout';
+// import Registration from './componants/Registration';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './Login';
 
 
@@ -8,29 +8,29 @@ const App = () => {
 
 
   
-  return (
+  return <>
 
   <div>
 
 
-   <BrowserRouter>
+   {/* <BrowserRouter>
       <Routes>
-      <Route path="/Registration" element={<Layout/>}>
+      <Route path="/" element={<Layout/>}>
 
       <Route path="Registration" element={<Registration/>}>   
       </Route>
             
         </Route>
       </Routes>
-    </BrowserRouter> 
+    </BrowserRouter>  */}
     
- <>
- < Login/>
- </>
+
    
   </div>
-  
-  )
+  <>
+ < Login/>
+ </>
+  </>
   
 
 };
