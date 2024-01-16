@@ -1,0 +1,14 @@
+
+    {
+    
+        "staff": {
+          "name": "Kulas Light",
+          "age": "52",
+          "Availiable": true,
+          "day": ["monday", "tuesday", "wednesday"]
+        },
+          "food": {
+            "chineese": "momos",
+            "southind": "dosa"
+          }
+        }
